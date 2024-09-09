@@ -1,0 +1,182 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>面试通知方式 | 智机活动队</title>
+<link rel="shortcut icon" href="https://yuyan-mach.cloud/favicon.ico?v=1725858035847">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://yuyan-mach.cloud/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="面试通知方式 | 智机活动队 - Atom Feed" href="https://yuyan-mach.cloud/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+SMS短信通知
+Email邮件通知
+招新群群公告通知
+
+请对面试安排/结果有疑问的同学与群管理员联系，或在该条帖子留言。
+" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://yuyan-mach.cloud">
+  <img class="avatar" src="https://yuyan-mach.cloud/images/avatar.png?v=1725858035847" alt="">
+  </a>
+  <h1 class="site-title">
+    智机活动队
+  </h1>
+  <p class="site-description">
+    欢迎加入智能机器人活动队
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              面试通知方式
+            </h2>
+            <div class="post-info">
+              <span>
+                2024-09-09
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <ol>
+<li>SMS短信通知</li>
+<li>Email邮件通知</li>
+<li>招新群群公告通知</li>
+</ol>
+<p>请对面试安排/结果有疑问的同学与群管理员联系，或在该条帖子留言。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://yuyan-mach.cloud/post/2024interview/">
+              <h3 class="post-title">
+                2024招新报名
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+        <a target="_blank" href="https://beian.mps.gov.cn/#/query/webSearch?code=61010302001187"
+        style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+        <img src="https://beian.mps.gov.cn/img/head-logo2.4d29d9b1.png" style="float:left;" alt="police-logo" width=20/>
+        <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
+          陕公网安备61010302001187号
+        </p>
+      </a>
+  <a class="rss" href="https://yuyan-mach.cloud/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

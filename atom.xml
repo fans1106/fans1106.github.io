@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yuyan-mach.cloud</id>
+    <title>智机活动队</title>
+    <updated>2024-09-09T05:00:40.536Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yuyan-mach.cloud"/>
+    <link rel="self" href="https://yuyan-mach.cloud/atom.xml"/>
+    <subtitle>欢迎加入智能机器人活动队</subtitle>
+    <logo>https://yuyan-mach.cloud/images/avatar.png</logo>
+    <icon>https://yuyan-mach.cloud/favicon.ico</icon>
+    <rights>All rights reserved 2024, 智机活动队</rights>
+    <entry>
+        <title type="html"><![CDATA[面试通知方式]]></title>
+        <id>https://yuyan-mach.cloud/post/mian-shi-tong-zhi-fang-shi/</id>
+        <link href="https://yuyan-mach.cloud/post/mian-shi-tong-zhi-fang-shi/">
+        </link>
+        <updated>2024-09-09T04:55:55.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>SMS短信通知</li>
+<li>Email邮件通知</li>
+<li>招新群群公告通知</li>
+</ol>
+<p>请对面试安排/结果有疑问的同学与群管理员联系，或在该条帖子留言。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024招新报名]]></title>
+        <id>https://yuyan-mach.cloud/post/2024interview/</id>
+        <link href="https://yuyan-mach.cloud/post/2024interview/">
+        </link>
+        <updated>2024-09-09T04:33:26.000Z</updated>
+        <content type="html"><![CDATA[<iframe src='https://www.wjx.cn/vm/mBxOtJe.aspx?width=750&source=iframe&s=t' width='100%' height='2600px' frameborder='0' style='overflow:auto'></iframe>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024智机招新]]></title>
+        <id>https://yuyan-mach.cloud/post/2024zhaoxin/</id>
+        <link href="https://yuyan-mach.cloud/post/2024zhaoxin/">
+        </link>
+        <updated>2024-09-08T16:31:08.000Z</updated>
+        <content type="html"><![CDATA[<p>👏  欢迎加入 <strong>智能机器人活动队</strong> ！<br>
+✍️  <strong>智能机器人活动队</strong> 一个专注于机创、电赛、工训、RoboCup的机器人社团... ...</p>
+<h2 id="one-more-thing">One More Thing👇</h2>
+<p>📝  你可以使用最酷的 <strong>STM32</strong> 语法，进行快速单片机开发</p>
+<p>🌉  你可以给机器人设计你想实现的任何动作，通过传感器赋予机器人眼睛</p>
+<p>💻  你可以在 <strong>大一</strong>，<strong>大二</strong> 或 <strong>大三</strong> 加入社团，拥抱无限未来</p>
+<p>🌱 当然 <strong>西交智机</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
